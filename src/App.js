@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <div className="App">
         <header className="App-header">
-          <Switch>
+          <Switch>      
             <Route path="/about">
               <About />
             </Route>

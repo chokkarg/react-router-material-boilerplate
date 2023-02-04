@@ -20,6 +20,10 @@ const Navbar = () => {
           <Typography variant="h6" className={classes.title}>
             App Heading
           </Typography>
+          <Link className={classes.link} to="/users">
+            Users
+          </Link>
+
           <Link className={classes.link} to="/about">
             About
           </Link>
